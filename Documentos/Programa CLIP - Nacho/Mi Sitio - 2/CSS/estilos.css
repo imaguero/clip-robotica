@@ -1,0 +1,35 @@
+h1, h3, p, li {
+    text-align: left;
+    margin: 20px;
+}
+
+table {
+    margin: 20px;
+}
+
+img {
+    margin: 20px;
+    width: 30%;
+}
+
+header {
+    background-color: rgba(131, 149, 167,1.0);
+    margin: 20px;
+}
+
+.cita-textual {
+    font-style: italic;
+}
+
+.cita-author {
+    text-align: right;
+}
+
+.cita-fondo {
+    background-color: rgba(200, 214, 229,1.0);
+}
+
+nav {
+    margin: 20px;
+}
+
