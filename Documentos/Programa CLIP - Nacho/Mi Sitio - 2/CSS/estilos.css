@@ -95,3 +95,8 @@ nav {
     float: left;
     width: 250px;
 }
+
+button {
+    border: black;
+}
+
