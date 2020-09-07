@@ -3,13 +3,36 @@ h1, h3, p, li {
     margin: 20px;
 }
 
-table {
+table, th, td {
     margin: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    padding: 5px;
+}
+
+th {
+    text-align:center;
+    background-color: rgba(34, 47, 62,1.0);
+    color: rgb(255, 255, 255);
+}
+
+#estilo-tabla {
+    width: auto;
+    background-color: rgba(200, 214, 229,1.0);
+
+}
+
+#estilo-tabla tr:nth-child {
+    background-color: rgba(34, 47, 62,1.0);
 }
 
 img {
-    margin: 20px;
-    width: 30%;
+    margin: auto;
+    width: 25%;
+    display: block;
+    padding: 10px;
+    border: 50px;
 }
 
 header {
@@ -33,3 +56,42 @@ nav {
     margin: 20px;
 }
 
+.poliarticulado {
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
+
+.moviles {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
+
+.androides {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
+
+.zoomorficos {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
+
+.hibridos {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    float: left;
+    width: 250px;
+}
